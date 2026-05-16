@@ -1,0 +1,258 @@
+{
+  "tobacco_varieties": [
+    {
+      "id": "var_001",
+      "name": "Virginia Gold",
+      "common_names": ["弗吉尼亞黃葉菸", "維州菸"],
+      "origin": "美國弗吉尼亞州",
+      "plant_height_cm": "120-180",
+      "leaf_count": "16-24",
+      "leaf_length_cm": "35-50",
+      "characteristics": {
+        "color": "烘烤後呈金黃色",
+        "flavor_profile": "清香、甜感",
+        "nicotine_content_percent": "1.5-2.0",
+        "sugar_content_percent": "15-18",
+        "aroma_score": "9/10"
+      },
+      "cultivation_requirements": {
+        "temperature_optimal": "22-28°C",
+        "temperature_critical_low": "5°C",
+        "temperature_critical_high": "38°C",
+        "humidity_optimal": "60-75%",
+        "soil_pH": "6.0-7.0",
+        "soil_type": "砂質壤土、排水良好",
+        "rainfall_annual_mm": "1200-1500",
+        "light_hours_daily": "12-14"
+      },
+      "growth_cycle": {
+        "days_to_maturity": 150,
+        "planting_season": "春季 (3月下旬-4月)",
+        "harvest_season": "秋季 (9月-10月)"
+      },
+      "yield_and_quality": {
+        "yield_kg_per_hectare": "1800-2000",
+        "output_quality_grade": "A+",
+        "export_value": "Premium",
+        "market_demand": "Very High"
+      },
+      "disease_resistance": {
+        "TMV_resistance": "Medium",
+        "black_shank_resistance": "High",
+        "mold_resistance": "Medium",
+        "drought_tolerance": "High"
+      },
+      "usage": ["卷煙", "煙絲", "雪茄", "煙斗菸"],
+      "advantages": [
+        "產量高",
+        "品質優良",
+        "香氣濃郁",
+        "國際市場需求大",
+        "售價高"
+      ],
+      "disadvantages": [
+        "對 TMV 敏感",
+        "需要精細管理",
+        "烘烤技術要求高"
+      ],
+      "recommended_regions": ["溫帶氣候區", "亞熱帶北部"],
+      "seed_rate_kg_per_hectare": "0.1-0.15",
+      "planting_density_plants_per_hectare": "3000-3500",
+      "fertilizer_requirements": {
+        "nitrogen_kg": "150-200",
+        "phosphorus_kg": "50-80",
+        "potassium_kg": "150-200",
+        "calcium_kg": "100-150"
+      }
+    },
+    {
+      "id": "var_002",
+      "name": "Burley Standard",
+      "common_names": ["伯利菸", "香料菸"],
+      "origin": "美國肯塔基州",
+      "plant_height_cm": "130-200",
+      "leaf_count": "18-28",
+      "leaf_length_cm": "40-60",
+      "characteristics": {
+        "color": "烘烤後呈褐色至淺棕色",
+        "flavor_profile": "醇厚、木質感、堅果香",
+        "nicotine_content_percent": "2.5-3.0",
+        "sugar_content_percent": "8-10",
+        "aroma_score": "8/10"
+      },
+      "cultivation_requirements": {
+        "temperature_optimal": "20-26°C",
+        "humidity_optimal": "55-70%",
+        "soil_pH": "6.0-7.0",
+        "soil_type": "壤土、黏壤土",
+        "rainfall_annual_mm": "1000-1300",
+        "light_hours_daily": "12-14"
+      },
+      "growth_cycle": {
+        "days_to_maturity": 160,
+        "planting_season": "春季 (4月-4月下旬)",
+        "harvest_season": "秋季 (9月中旬-10月中旬)"
+      },
+      "yield_and_quality": {
+        "yield_kg_per_hectare": "1600-1800",
+        "output_quality_grade": "A",
+        "export_value": "High",
+        "market_demand": "High"
+      },
+      "disease_resistance": {
+        "TMV_resistance": "High",
+        "black_shank_resistance": "Medium",
+        "mold_resistance": "High",
+        "drought_tolerance": "Medium"
+      },
+      "usage": ["卷煙", "斗菸", "雪茄填充菸"],
+      "advantages": [
+        "抗病性強",
+        "耐貯存",
+        "成熟期長",
+        "口感醇厚",
+        "適合添加香精"
+      ],
+      "disadvantages": [
+        "產量相對較低",
+        "生長期較長",
+        "需要較多肥料"
+      ],
+      "recommended_regions": ["溫帶氣候區", "亞熱帶地區"],
+      "seed_rate_kg_per_hectare": "0.12-0.18",
+      "planting_density_plants_per_hectare": "2800-3200",
+      "fertilizer_requirements": {
+        "nitrogen_kg": "120-180",
+        "phosphorus_kg": "40-60",
+        "potassium_kg": "120-180",
+        "calcium_kg": "80-120"
+      }
+    },
+    {
+      "id": "var_003",
+      "name": "Oriental Turkish",
+      "common_names": ["東方菸", "土耳其菸"],
+      "origin": "土耳其、巴爾幹半島",
+      "plant_height_cm": "80-120",
+      "leaf_count": "12-18",
+      "leaf_length_cm": "20-35",
+      "characteristics": {
+        "color": "烘烤後呈棕黃色至深棕色",
+        "flavor_profile": "獨特香氣、辛辣感",
+        "nicotine_content_percent": "0.8-1.2",
+        "sugar_content_percent": "12-14",
+        "aroma_score": "9.5/10"
+      },
+      "cultivation_requirements": {
+        "temperature_optimal": "20-27°C",
+        "humidity_optimal": "50-65%",
+        "soil_pH": "6.5-7.5",
+        "soil_type": "砂土、石灰質土壤",
+        "rainfall_annual_mm": "600-900",
+        "light_hours_daily": "13-15"
+      },
+      "growth_cycle": {
+        "days_to_maturity": 130,
+        "planting_season": "春季 (4月中旬-5月)",
+        "harvest_season": "初秋 (8月下旬-9月下旬)"
+      },
+      "yield_and_quality": {
+        "yield_kg_per_hectare": "1200-1400",
+        "output_quality_grade": "B+",
+        "export_value": "Premium",
+        "market_demand": "Moderate"
+      },
+      "disease_resistance": {
+        "TMV_resistance": "High",
+        "black_shank_resistance": "High",
+        "mold_resistance": "High",
+        "drought_tolerance": "Very High"
+      },
+      "usage": ["卷煙混調", "斗菸", "雪茄包裝葉"],
+      "advantages": [
+        "極耐乾旱",
+        "香氣獨特",
+        "產量穩定",
+        "抗病性最強",
+        "生育期短"
+      ],
+      "disadvantages": [
+        "產量較低",
+        "市場需求有限",
+        "價格波動大"
+      ],
+      "recommended_regions": ["乾旱氣候區", "地中海氣候區"],
+      "seed_rate_kg_per_hectare": "0.08-0.12",
+      "planting_density_plants_per_hectare": "2200-2800",
+      "fertilizer_requirements": {
+        "nitrogen_kg": "80-120",
+        "phosphorus_kg": "30-50",
+        "potassium_kg": "100-150",
+        "calcium_kg": "100-150"
+      }
+    },
+    {
+      "id": "var_004",
+      "name": "Flue-cured Premium",
+      "common_names": ["烤菸", "美國高級烤菸"],
+      "origin": "美國北卡羅來納州",
+      "plant_height_cm": "110-170",
+      "leaf_count": "14-22",
+      "leaf_length_cm": "32-48",
+      "characteristics": {
+        "color": "烘烤後呈紅褐色至深棕色",
+        "flavor_profile": "香甜、柔和、果香",
+        "nicotine_content_percent": "1.8-2.2",
+        "sugar_content_percent": "16-20",
+        "aroma_score": "8.5/10"
+      },
+      "cultivation_requirements": {
+        "temperature_optimal": "21-27°C",
+        "humidity_optimal": "60-72%",
+        "soil_pH": "6.2-6.8",
+        "soil_type": "沙質壤土",
+        "rainfall_annual_mm": "1100-1400",
+        "light_hours_daily": "12-14"
+      },
+      "growth_cycle": {
+        "days_to_maturity": 155,
+        "planting_season": "春季 (4月-4月中旬)",
+        "harvest_season": "秋季 (9月中旬-10月下旬)"
+      },
+      "yield_and_quality": {
+        "yield_kg_per_hectare": "1900-2100",
+        "output_quality_grade": "A+",
+        "export_value": "Premium",
+        "market_demand": "Very High"
+      },
+      "disease_resistance": {
+        "TMV_resistance": "High",
+        "black_shank_resistance": "Medium",
+        "mold_resistance": "Medium",
+        "drought_tolerance": "Medium"
+      },
+      "usage": ["高級卷煙", "出口菸", "溫和型卷煙"],
+      "advantages": [
+        "產量最高",
+        "品質優異",
+        "國際認可",
+        "市場價格穩定",
+        "易於烘烤"
+      ],
+      "disadvantages": [
+        "對 TMV 有一定敏感性",
+        "需要標准化管理",
+        "育種技術門檻高"
+      ],
+      "recommended_regions": ["溫帶氣候區（最優）"],
+      "seed_rate_kg_per_hectare": "0.11-0.16",
+      "planting_density_plants_per_hectare": "3200-3800",
+      "fertilizer_requirements": {
+        "nitrogen_kg": "160-220",
+        "phosphorus_kg": "55-85",
+        "potassium_kg": "160-220",
+        "calcium_kg": "110-160"
+      }
+    }
+  ]
+}
