@@ -1,0 +1,199 @@
+{
+  "cultivation_plans": [
+    {
+      "id": "plan_001",
+      "name": "Virginia Gold 標準栽培計畫",
+      "variety": "Virginia Gold",
+      "total_duration_days": 180,
+      "climate_zone": "溫帶氣候區",
+      "stages": [
+        {
+          "stage_number": 1,
+          "name": "育苗準備 (播種前)",
+          "duration_days": 14,
+          "timing": "春季 (3月中旬)",
+          "tasks": [
+            "清潔育苗床，清除病菌",
+            "準備營養土：泥炭土(40%) + 珍珠岩(30%) + 腐殖質(30%)",
+            "檢查灌溉系統",
+            "準備遮陰網"
+          ],
+          "environmental_control": {
+            "temperature": "15-20°C",
+            "humidity": "70-80%",
+            "light": "弱光或人工光"
+          }
+        },
+        {
+          "stage_number": 2,
+          "name": "播種與幼苗期",
+          "duration_days": 30,
+          "timing": "3月下旬 - 4月下旬",
+          "tasks": [
+            "輕輕灑播菸草種子（每平米 100-150 粒）",
+            "輕覆蓋，保持濕潤",
+            "播種後 7-10 天開始發芽",
+            "幼苗出土後逐漸增加光照",
+            "當幼苗長出 2-3 片真葉時間苗"
+          ],
+          "environmental_control": {
+            "temperature": "20-25°C",
+            "humidity": "65-75%",
+            "light": "12-14 小時光照"
+          },
+          "fertilizer": "每周稀液肥一次（N:P:K = 10:5:5）"
+        },
+        {
+          "stage_number": 3,
+          "name": "移栽準備與大田管理",
+          "duration_days": 60,
+          "timing": "5月 - 6月下旬",
+          "tasks": [
+            "大田準備：深耕 30-40 cm，翻入有機肥（40 噸/公頃）",
+            "施基肥：複合肥 750 kg/公頃 + 鉀肥 300 kg/公頃",
+            "做畦：畦寬 1.5 m，畦高 15-20 cm",
+            "定植時間：幼苗長至 6-8 片真葉時移栽",
+            "種植密度：3,000-3,500 株/公頃",
+            "移栽後及時灌水"
+          ],
+          "environmental_control": {
+            "temperature": "22-28°C",
+            "humidity": "60-70%",
+            "rainfall": "400-500 mm/月"
+          },
+          "management": "及時打頂、去蘖、去下部老葉"
+        },
+        {
+          "stage_number": 4,
+          "name": "營養生長與花序發育",
+          "duration_days": 60,
+          "timing": "7月 - 8月下旬",
+          "tasks": [
+            "追肥：氮肥 150-200 kg/公頃（分 2-3 次）",
+            "定期打頂（距離頂部 10-15 cm 處剪除花序）",
+            "去蘖管理：及時去除側枝",
+            "去下部老葉：改善通風，預防病害",
+            "中耕除草：2-3 次"
+          ],
+          "disease_management": "防治 TMV：工具消毒，發病株及時清除",
+          "pest_management": "監測棉鈴蟲和菸青蟲，使用生物防治"
+        },
+        {
+          "stage_number": 5,
+          "name": "成熟期與採收",
+          "duration_days": 30,
+          "timing": "9月 - 9月下旬",
+          "tasks": [
+            "監測葉片成熟度：黃綠色、變脆、油性增加",
+            "分批採收：從下往上，每周採 2-3 層葉片",
+            "採收時間：晴天上午 9-11 時（葉片含水量適中）",
+            "預計採收 10-15 次",
+            "採收後立即輸送到烘烤室"
+          ],
+          "maturity_indicators": [
+            "葉脈變淡",
+            "葉片由綠色轉黃綠色",
+            "葉面有油性光澤",
+            "用力折時易斷"
+          ]
+        },
+        {
+          "stage_number": 6,
+          "name": "烘烤與初步處理",
+          "duration_days": 14,
+          "timing": "10月 - 10月中旬",
+          "tasks": [
+            "烘烤溫度曲線：初期 40-50°C，升溫至 75-85°C",
+            "全程烘烤時間：6-8 天",
+            "定期檢查葉片含水量",
+            "烘烤完成後自然降溫至室溫",
+            "初步分級和打包"
+          ],
+          "drying_parameters": {
+            "initial_temp": "40-50°C",
+            "mid_temp": "60-70°C",
+            "final_temp": "75-85°C",
+            "total_time": "6-8 days"
+          }
+        }
+      ],
+      "total_investment": "¥45,000-60,000/公頃",
+      "expected_yield": "1,800 kg/公頃",
+      "revenue": "¥72,000-90,000/公頃",
+      "net_profit": "¥15,000-30,000/公頃"
+    },
+    {
+      "id": "plan_002",
+      "name": "Burley 有機栽培計畫",
+      "variety": "Burley Standard",
+      "total_duration_days": 200,
+      "climate_zone": "溫帶至亞熱帶",
+      "organic_certified": true,
+      "stages": [
+        {
+          "stage_number": 1,
+          "name": "有機地準備",
+          "duration_days": 21,
+          "tasks": [
+            "選擇已認證 3 年以上的有機田塊",
+            "施用有機肥：牛糞堆肥 60 噸/公頃",
+            "深耕 40 cm，充分混合",
+            "灌溉沉降 7-10 天"
+          ]
+        },
+        {
+          "stage_number": 2,
+          "name": "育苗（有機方式）",
+          "duration_days": 35,
+          "tasks": [
+            "使用認證有機種子",
+            "育苗介質：有機堆肥 50% + 椰糠 30% + 珍珠岩 20%",
+            "有機肥液灌溉（每 7 天一次）",
+            "物理防蟲（黃板、蚊帳）"
+          ]
+        },
+        {
+          "stage_number": 3,
+          "name": "移栽與初期管理",
+          "duration_days": 50,
+          "tasks": [
+            "移栽密度：2,800 株/公頃（有機栽培較稀疏）",
+            "覆蓋有機秸稈，保溫保濕",
+            "有機肥液施肥（20 天一次）",
+            "人工除草（不用除草劑）"
+          ]
+        },
+        {
+          "stage_number": 4,
+          "name": "中期管理",
+          "duration_days": 60,
+          "tasks": [
+            "沼液或堆肥液灌根",
+            "人工打頂與去蘖",
+            "預防病害：噴灑波爾多液（1:1:100）",
+            "預防蟲害：植物性殺蟲劑（除蟲菊精、苦楝油）",
+            "定期中耕除草"
+          ]
+        },
+        {
+          "stage_number": 5,
+          "name": "後期管理與採收",
+          "duration_days": 34,
+          "tasks": [
+            "停止施肥（採收前 30 天）",
+            "分批採收（8-12 次）",
+            "採收時間：晴天上午 9-11 時"
+          ]
+        }
+      ],
+      "organic_methods": {
+        "fertilizer": "有機肥、堆肥、沼液、植物性液肥",
+        "pest_control": "物理防治、生物防治、植物精油",
+        "disease_control": "波爾多液、石硫合劑、提高種植密度通風性"
+      },
+      "certification_requirements": "需符合有機認證標準，保留詳細記錄",
+      "expected_yield": "1,400 kg/公頃（有機產量略低）",
+      "organic_premium": "20-30% 價格溢價"
+    }
+  ]
+}
