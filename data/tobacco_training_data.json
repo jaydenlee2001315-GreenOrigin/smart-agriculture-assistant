@@ -1,0 +1,116 @@
+{
+  "tobacco_training_data": {
+    "datasets": [
+      {
+        "id": "dataset_001",
+        "crop_type": "菸草 (Tobacco)",
+        "growth_stages": [
+          {
+            "stage": "播種期",
+            "duration_days": 7,
+            "temperature_range": "15-20°C",
+            "humidity_range": "70-80%",
+            "key_indicators": ["發芽率", "根系發育"]
+          },
+          {
+            "stage": "幼苗期",
+            "duration_days": 30,
+            "temperature_range": "20-25°C",
+            "humidity_range": "65-75%",
+            "key_indicators": ["株高", "葉片數", "莖粗"]
+          },
+          {
+            "stage": "營養生長期",
+            "duration_days": 60,
+            "temperature_range": "22-28°C",
+            "humidity_range": "60-70%",
+            "key_indicators": ["葉面積", "生物量", "根系深度"]
+          },
+          {
+            "stage": "開花結實期",
+            "duration_days": 45,
+            "temperature_range": "20-26°C",
+            "humidity_range": "55-65%",
+            "key_indicators": ["花序發育", "籽粒數", "籽粒飽滿度"]
+          },
+          {
+            "stage": "成熟期",
+            "duration_days": 30,
+            "temperature_range": "18-24°C",
+            "humidity_range": "50-60%",
+            "key_indicators": ["葉片顏色", "含油量", "干物質含量"]
+          }
+        ]
+      }
+    ],
+    "environmental_parameters": {
+      "temperature": {
+        "optimal_range": "22-28°C",
+        "critical_low": "5°C",
+        "critical_high": "38°C"
+      },
+      "humidity": {
+        "optimal_range": "60-75%",
+        "minimum": "40%",
+        "maximum": "85%"
+      },
+      "soil": {
+        "pH_range": "6.0-7.0",
+        "nitrogen_ppm": "150-200",
+        "phosphorus_ppm": "30-50",
+        "potassium_ppm": "150-200",
+        "organic_matter_percent": "2.5-3.5"
+      },
+      "light": {
+        "daily_hours": "12-14",
+        "intensity_lux": "50000-80000"
+      }
+    },
+    "yield_quality_data": [
+      {
+        "variety": "Virginia Gold",
+        "avg_yield_kg_per_hectare": 1800,
+        "quality_grade": "A+",
+        "nicotine_content_percent": "1.5-2.0",
+        "sugar_content_percent": "15-18"
+      },
+      {
+        "variety": "Burley Standard",
+        "avg_yield_kg_per_hectare": 1600,
+        "quality_grade": "A",
+        "nicotine_content_percent": "2.5-3.0",
+        "sugar_content_percent": "8-10"
+      },
+      {
+        "variety": "Oriental Turkish",
+        "avg_yield_kg_per_hectare": 1400,
+        "quality_grade": "B+",
+        "nicotine_content_percent": "0.8-1.2",
+        "sugar_content_percent": "12-14"
+      }
+    ],
+    "disease_pest_records": [
+      {
+        "name": "菸草花葉病毒 (TMV)",
+        "symptoms": ["葉片褪綠", "葉脈清晰", "植株矮化"],
+        "severity": "高",
+        "prevention": "使用抗性品種、消毒工具",
+        "treatment": "無特效藥，主要預防"
+      },
+      {
+        "name": "菌核病 (Sclerotinia)",
+        "symptoms": ["莖部腐爛", "棉毛狀黑色菌核"],
+        "severity": "中",
+        "prevention": "改善通風、降低濕度",
+        "treatment": "使用殺菌劑、及時移除病株"
+      },
+      {
+        "name": "棉鈴蟲 (Helicoverpa)",
+        "symptoms": ["蕾和蒴果被蛀", "排泄物痕跡"],
+        "severity": "高",
+        "prevention": "人工捕殺、性誘劑陷阱",
+        "treatment": "生物農藥或化學殺蟲劑"
+      }
+    ]
+  }
+}
