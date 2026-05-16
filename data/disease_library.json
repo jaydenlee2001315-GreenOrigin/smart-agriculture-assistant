@@ -1,0 +1,246 @@
+{
+  "diseases": [
+    {
+      "id": "disease_001",
+      "name": "菸草花葉病毒 (Tobacco Mosaic Virus - TMV)",
+      "severity_level": "高",
+      "impact_on_yield": "30-50% 減產",
+      "symptoms": {
+        "early_stage": [
+          "新葉出現褪綠條紋",
+          "葉脈變淡，呈現花葉狀",
+          "感病葉片皺縮變小"
+        ],
+        "advanced_stage": [
+          "全株葉片呈現花斑",
+          "葉片邊緣壞死",
+          "植株停止生長，嚴重矮化",
+          "花序發育不良"
+        ]
+      },
+      "favorable_conditions": {
+        "temperature": "20-25°C",
+        "humidity": "60-80%",
+        "light": "高光照條件下症狀明顯"
+      },
+      "transmission_routes": [
+        "接觸傳染（工作人員、農具）",
+        "種子傳染",
+        "昆蟲（特別是蚜蟲）傳播"
+      ],
+      "prevention": {
+        "variety_selection": "選擇抗 TMV 品種（如 Burley、Oriental Turkish）",
+        "seed_treatment": "使用認證健康種子",
+        "tool_disinfection": "工具定期用 10% 漂白粉消毒或 70% 酒精擦拭",
+        "field_hygiene": "及時清除病株，銷毀病葉",
+        "worker_protection": "操作人員工作前洗手，穿戴防護用具"
+      },
+      "treatment": {
+        "chemical": "無特效藥物治療",
+        "biological": "使用硫酸銅和檸檬酸的混合液進行葉面噴灑（預防作用）",
+        "management": "及時拔除病株，集中銷毀，防止擴散"
+      },
+      "detection_method": "肉眼觀察 + ELISA 快速檢測試劑"
+    },
+    {
+      "id": "disease_002",
+      "name": "菌核病 (Sclerotinia Rot)",
+      "severity_level": "中",
+      "impact_on_yield": "10-20% 減產",
+      "symptoms": {
+        "initial_stage": [
+          "莖部出現水漬狀褪色斑點",
+          "病斑擴展，呈褐色腐爛",
+          "莖部軟化、空心"
+        ],
+        "later_stage": [
+          "病部產生白色絲狀菌絲體",
+          "內部形成黑色菌核（鼠糞狀）",
+          "植株倒伏，葉片枯死"
+        ]
+      },
+      "favorable_conditions": {
+        "temperature": "15-20°C",
+        "humidity": "85-95%（高濕環境）",
+        "drainage": "排水不良地塊易發病"
+      },
+      "transmission_routes": [
+        "土壤中的菌核越冬",
+        "高溫高濕時期易發病",
+        "連作加重發病"
+      ],
+      "prevention": {
+        "crop_rotation": "與禾本科作物輪作 2-3 年",
+        "field_drainage": "改善田間排水，降低濕度",
+        "field_sanitation": "清除病株病葉，減少菌源",
+        "variety_selection": "選擇抗病品種"
+      },
+      "treatment": {
+        "fungicide_options": [
+          "40% 菌核利可濕性粉劑 800-1000 倍液",
+          "30% 苯醯菌胺 1500 倍液",
+          "50% 多菌靈可濕性粉劑 1000 倍液"
+        ],
+        "application_timing": "病情初期，每 10-14 天噴一次，連續 2-3 次",
+        "mechanical": "及時去除病葉，提高通風性"
+      },
+      "detection_method": "肉眼觀察菌核、顯微鏡觀察"
+    },
+    {
+      "id": "disease_003",
+      "name": "黑脛病 (Black Shank - Phytophthora nicotianae)",
+      "severity_level": "高",
+      "impact_on_yield": "20-60% 減產，可造成毀滅性危害",
+      "symptoms": {
+        "root_rot": [
+          "根部腐爛，變為黑褐色",
+          "根系解體，植株易倒伏"
+        ],
+        "stem_symptoms": [
+          "莖基部出現暗褐色病斑",
+          "病斑環繞莖部，漸進性擴展",
+          "莖部變黑，維管束變褐",
+          "病部以上植株萎蔫、干枯死亡"
+        ],
+        "leaf_symptoms": [
+          "老葉先發病，逐漸向上發展",
+          "葉片出現褐色壞死斑，邊界明顯"
+        ]
+      },
+      "favorable_conditions": {
+        "soil_moisture": "土壤長期過濕（>70% 含水量）",
+        "soil_pH": "酸性土壤（pH < 6.2）",
+        "temperature": "20-27°C",
+        "drainage": "排水不良是主要誘因"
+      },
+      "transmission_routes": [
+        "土壤病菌經根部傷口侵入",
+        "病菌主要在病株殘體中越冬",
+        "連作地塊病菌積累"
+      ],
+      "prevention": {
+        "variety_selection": "選擇抗性品種（Virginia、Burley、Oriental Turkish 抗性強）",
+        "soil_management": "改善排水，增施石灰，提高 pH 至 6.5-7.0",
+        "crop_rotation": "與禾本科作物輪作 3-4 年",
+        "seed_disinfection": "種子用 50°C 溫水浸種 30 分鐘",
+        "field_sanitation": "清除發病株，集中銷毀"
+      },
+      "treatment": {
+        "fungicide_options": [
+          "疫黴靈 600 倍液澆灌根部",
+          "甲基托布津 1000 倍液根部灌注",
+          "銅霉素懸濁液噴灑莖基部"
+        ],
+        "application_method": "發病早期，直接灌根，每 7-10 天一次",
+        "integrated_approach": "配合排水改善效果更好"
+      },
+      "detection_method": "挖根觀察、分離培養、PCR 檢測"
+    }
+  ],
+  "pests": [
+    {
+      "id": "pest_001",
+      "name": "棉鈴蟲 (Helicoverpa armigera)",
+      "severity_level": "高",
+      "damage_type": "蛀食",
+      "impact_on_yield": "10-30% 的花和蒴果被蛀損",
+      "damaged_plant_parts": ["花序", "蒴果", "種子"],
+      "identification": {
+        "adult": "體長 15-20mm，前翅褐色至土黃色，後翅較淺",
+        "larva": "體長 25-35mm（成熟期），體色變異大（綠、黃、褐色），體表有短毛",
+        "damage_signs": "蒴果表面有蛀孔，內部充滿蟲糞"
+      },
+      "life_cycle": {
+        "generations_per_year": "3-5 代",
+        "overwintering": "以蛹在土壤中越冬",
+        "adult_emergence": "春季 5月中旬開始出現"
+      },
+      "favorable_conditions": {
+        "temperature": "15-30°C",
+        "humidity": "60-80%",
+        "peak_period": "7-9月"
+      },
+      "prevention": {
+        "crop_variety": "選擇花期集中品種，縮短高危期",
+        "field_sanitation": "摘除蟲蒴，清除落地果實",
+        "pheromone_traps": "安裝性引誘器，誘殺成蟲（每畝 2-3 個）",
+        "light_traps": "使用黑光燈誘殺成蟲（每 30 畝 1 盞）"
+      },
+      "treatment": {
+        "biological": [
+          "Bt 製劑：每 7-10 天噴一次，連續 2-3 次",
+          "性信素制劑：擾亂交配"
+        ],
+        "chemical": [
+          "5% 甲維鹽乳油 1500-2000 倍液",
+          "10% 蟲螨腈懸浮劑 2000 倍液"
+        ],
+        "application_timing": "蟲口密度達經濟阈值（單株 3-5 頭幼蟲）時施用"
+      },
+      "monitoring": "定期調查蟲害發生情況，及時發現蟲蒴"
+    },
+    {
+      "id": "pest_002",
+      "name": "菸青蟲 (Heliothis virescens)",
+      "severity_level": "中-高",
+      "damage_type": "蛀食、啃食",
+      "impact_on_yield": "5-15% 花果損傷",
+      "damaged_plant_parts": ["花蕾", "花瓣", "嫩葉", "蒴果"],
+      "identification": {
+        "adult": "體長 12-15mm，前翅綠色至褐色，有細的波狀橫紋",
+        "larva": "體長 18-25mm，體色綠色、黃色或褐色變異大，有背中線"
+      },
+      "life_cycle": {
+        "generations_per_year": "2-3 代",
+        "overwintering": "蛹在土壤中越冬"
+      },
+      "favorable_conditions": {
+        "temperature": "18-28°C",
+        "peak_period": "6-9月"
+      },
+      "prevention": {
+        "early_warning": "安裝黑光燈、性引誘器進行監測",
+        "field_inspection": "定期檢查，發現蟲花及時摘除",
+        "crop_management": "提高種植密度，改善通風"
+      },
+      "treatment": {
+        "methods": [
+          "與棉鈴蟲防治方法基本相同",
+          "Bt 製劑效果好",
+          "甲維鹽、蟲螨腈等殺蟲劑"
+        ]
+      }
+    },
+    {
+      "id": "pest_003",
+      "name": "蚜蟲 (Aphids)",
+      "severity_level": "中",
+      "damage_type": "吸食、傳播病毒",
+      "impact_on_yield": "5-10% 減產",
+      "damaged_plant_parts": ["葉片", "嫩莖"],
+      "identification": {
+        "common_species": [
+          "棉蚜 - 黃色，可傳播 TMV",
+          "菸蚜 - 深褐色至黑色"
+        ]
+      },
+      "harmful_effects": [
+        "吸食植物汁液，導致葉片萎蔫、卷曲",
+        "傳播病毒病（尤其是 TMV）",
+        "分泌蜜露，引起煤污病"
+      ],
+      "prevention": {
+        "early_detection": "定期檢查葉片背面",
+        "natural_enemies": "保護利用瓢蟲、草蛉等天敵",
+        "field_hygiene": "及時清除雜草和殘株"
+      },
+      "treatment": {
+        "chemical": [
+          "10% 氯蟲苯甲酰胺可分散油懸浮劑 600 倍液",
+          "3% 啶蟲咪乳油 1000 倍液"
+        ],
+        "biological": "利用寄生峰、捕食性天敵"
+      }
+    }
+  ]
+}
